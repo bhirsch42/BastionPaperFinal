@@ -11,6 +11,7 @@ public class Paper {
 	public static final String[][] showing = {
 		"Hold down the left mouse button and explore the screen with your cursor.".split(" "),
 		"meaningful play compelling unique suspense questions immersive".split(" "),
+		"fantasy landscapes \"the kid,\" Caelondia. \"cores,\" power Monument farther, stronghold".split(" "),
 		"interactive storytelling agency, immersion, transformation. Agency, empowerment control".split(" "),
 		"platforms, reactive hack-and-slash fighting combat system movement".split(" "),
 		"quick visceral, weight, swing swing affordance motion, opposite decision".split(" "),
@@ -158,25 +159,19 @@ public class Paper {
 	private boolean turningPageBack = false;
 
 	public void turnPage() {
-<<<<<<< HEAD
 		if (currentPage == text.length-1 || turningPageBack)
-=======
 		if (turningPage || turningPageBack)
 			return;
 		if (currentPage == text.length-1)
->>>>>>> Added voice cues
 			return;
 		turningPage = true;
 	}
 
 	public void turnPageBack() {
-<<<<<<< HEAD
 		if (currentPage == 0 || turningPage)
-=======
 		if (turningPage || turningPageBack)
 			return;
 		if (currentPage == 0)
->>>>>>> Added voice cues
 			return;
 		turningPageBack = true;
 	}
